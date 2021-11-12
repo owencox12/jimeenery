@@ -1,0 +1,54 @@
+.button {
+    &--header {
+        width: 186px;
+        height: 45px;
+        background: none;
+        border: 1px solid #fff;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+
+    }
+    &--promo {
+        width: 249px;
+        height: 55px;
+        background: none;
+        border: 1px solid #fff;
+        margin: 0 auto;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    &--about {
+        width: 226px;
+        height: 55px;
+        background: none;
+        border: 1px solid #fff;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+        margin-top: 60px;
+    }
+    &--form {
+        width: 194px;
+        height: 55px;
+        border: 1px solid #FFFFFF;
+        background: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+        margin-top: 60px;
+    }
+}

@@ -1,0 +1,174 @@
+.about {
+    min-height: 3900px;
+    background: #273947;
+    padding: 100px 0;
+    overflow: hidden;
+    &__title {
+        font-family: Playfair Display;
+        font-size: 48px;
+        line-height: 56px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        &_second {
+            font-family: Playfair Display;
+            font-size: 36px;
+            line-height: 150%;
+            color: #FFFFFF;
+            text-transform: none;
+            &:last-child {
+                margin-top: 120px;
+            }
+        }
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 113px;
+        &_info {
+            flex-wrap: wrap;
+        }
+        &_second {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 116px;
+        }
+        &_four {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 70px;
+        }
+        &_five {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 100px;
+        }
+    }
+    &__item {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 150%;
+        color: #FFFFFF;
+        margin: 0 20px;
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+    &__info {
+        width: 33%;
+        margin-top: 50px;
+        &_block {
+            display: flex;
+            justify-content: space-between;
+            &_text {
+                &_title {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 150%;
+                    color: #FFFFFF;
+                }
+                &_descr {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #FFFFFF;
+                    width: 292px;
+                }
+            }
+        }
+    }
+    &__job {
+        &_block {
+            width: 25%;
+            display: flex;
+            justify-content: space-between;
+            &_text {
+                margin-left: 25px;
+                &_title {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 150%;
+                    color: #FFFFFF;
+                }
+                &_descr {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #FFFFFF;
+                    width: 218px;
+                }
+            }
+        }
+    }
+    &__project {
+        display: flex;
+        flex-direction: column;
+        &:nth-child(5) {
+            margin-top: 50px;
+        }
+        &:nth-child(6) {
+            margin-top: 50px;
+        }
+        &:nth-child(7) {
+            margin-top: 50px;
+        }
+        &:nth-child(8) {
+            margin-top: 50px;
+        }
+        &_descr {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 150%;
+            color: #FFFFFF;
+            margin-top: 15px;
+            text-align: center;
+        }
+    }
+    &__button {
+        text-align: center;
+    }
+    &__block {
+        width: 289px;
+        height: 350px;
+        background: rgba(15, 30, 44, 0.7);
+        text-align: center;
+        &:nth-child(5) {
+            margin-top: 50px;
+        }
+        &:nth-child(6) {
+            margin-top: 50px;
+        }
+        &:nth-child(7) {
+            margin-top: 50px;
+        }
+        &:nth-child(8) {
+            margin-top: 50px;
+        }
+        &_image {
+            padding-top: 90px;
+        }
+        &_descr {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 150%;
+            color: #FFFFFF;
+            margin-top: 50px;
+        }
+    }
+
+}

@@ -1,0 +1,52 @@
+.information {
+    min-height: 940px;
+    overflow: hidden;
+    &__wrapper {
+        display: flex;
+    }
+    &__item {
+        width: 50%;
+        &_right {
+            background: #162634;
+            height: 940px;
+            width: 50%;
+            padding-left: 99px;
+        }
+    }
+    &__title {
+        font-family: Playfair Display;
+        font-size: 48px;
+        line-height: 56px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+        padding-top: 153px;
+        margin-bottom: 100px;
+    }
+    &__form {
+        display: flex;
+        flex-direction: column;
+
+        input {
+            width: 509px;
+            height: 60px;
+            margin-top: 30px;
+            background: none;
+            border: 1px solid #fff;
+            padding-left: 30px;
+            color: #fff;
+        }
+        textarea {
+            width: 509px;
+            height: 152px;
+            resize: none;
+            margin-top: 30px;
+            background: none;
+            border: 1px solid #fff;
+            padding-left: 30px;
+            color: #fff;
+            padding-top: 10px;
+            
+        }
+    }
+}

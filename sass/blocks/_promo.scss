@@ -1,0 +1,45 @@
+.promo {
+    background: url(../../image/bgcolorPromo.png) center center / cover no-repeat;
+    min-height: 800px;
+    overflow: hidden;
+    &__title {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: right;
+        padding-top: 155px;
+    }
+    &__descr {
+        font-family: 'Playfair Display', serif;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: right;
+        width: 550px;
+        margin: 0 auto;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-top: 99px;
+    }
+    &__text {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 150%;
+        width: 417px;
+        margin: 0 auto;
+        color: #fff;
+        margin-top: 30px;
+        margin-left: 465px;
+        text-align: right;
+    }
+    &__button {
+        text-align: center;
+        margin-left: 300px;
+        margin-top: 80px;
+    }
+}

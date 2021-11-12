@@ -1,0 +1,77 @@
+.footer {
+    min-height: 520px;
+    background: #516C81;
+    padding-top: 96px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        &_descr {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            width: 288px;
+            color: #E6E6E6;
+            margin-top: 50px;
+        }
+        &_list {
+            margin-top: 37px;
+            &_li {
+                a {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 250%;
+                    color: #E6E6E6;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    &__title {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #FFFFFF;
+    }
+    &__contacts {
+        margin-top: 38px;
+        li {
+            margin: 15px 0;
+            img {
+                margin-right: 15px;
+            }
+            a {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 20px;
+                color: #E6E6E6;
+                text-decoration: none;
+                span {
+                    margin-left: 40px;
+                    font-family: Ubuntu;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 12px;
+                    line-height: 150%;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+    &__image {
+        text-align: center;
+        margin-top: 50px;
+    }
+}

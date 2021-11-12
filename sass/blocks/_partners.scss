@@ -1,0 +1,41 @@
+.partners {
+    min-height: 344px;
+    padding: 100px 0 131px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        &_second {
+            flex-wrap: wrap;
+            margin-top: 116px;
+            justify-content: center;
+        }
+    }
+    &__item {
+        width: 21%;
+        &:nth-child(5) {
+            margin-top: 50px;
+        }
+        &:nth-child(6) {
+            margin-top: 50px;
+        }
+        &:nth-child(7) {
+            margin-top: 50px;
+        }
+    }
+    &__title {
+        font-family: Playfair Display;
+        font-size: 48px;
+        line-height: 56px;
+        text-transform: uppercase;
+        color: #273947;
+    }
+    &__info {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 150%;
+        text-align: right;
+        color: #273947;
+    }
+}
